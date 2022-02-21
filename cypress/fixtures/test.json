@@ -1,0 +1,41 @@
+{
+"index":0,
+"Details":[
+      {
+	  "id":"1234Myid",
+	  "year": 2020,
+	  "act_id": "00045",
+	  "name":"name1",
+	  "FinalDetails":{
+	  "type":"grp",
+	  "q":5,
+	  "p":0
+	  
+	    }
+      },
+	  {
+	  "id":"6787Myid",
+	  "year": 2020,
+	  "act_id": "00045",
+	  "name":"name2",
+	  "FinalDetails":{
+	  "type":"grp",
+	  "q":5,
+	  "p":0
+	  }
+	    },
+		{
+	  "id":"6787Myid",
+	  "year": 2020,
+	  "act_id": "00045",
+	  "name":"name2",
+	  "FinalDetails":{
+	  "type":"grp",
+	  "q":5,
+	  "p":0
+	  
+	    }
+      }
+      
+   ]
+}
