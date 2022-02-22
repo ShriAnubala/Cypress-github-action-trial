@@ -22,4 +22,5 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           command: npm run cy:run
+          
           # start: npm start
