@@ -12,11 +12,11 @@ jobs:
       # and run all Cypress tests
       - name: Configure Node Version
         uses: actions/setup-node@v1
-        with:
-            node-version: 12
+        # with:
+        #     node-version: 12
         name: Update npm
         run: npm install -g npm@7
-        
+
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
