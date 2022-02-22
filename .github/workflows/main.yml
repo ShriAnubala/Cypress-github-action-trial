@@ -21,4 +21,5 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
-          command: npm run cy:run
+          spec: cypress/integration/examples/actions.spec.js
+          # command: npm run cy:run
