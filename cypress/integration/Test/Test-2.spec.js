@@ -15,7 +15,7 @@ context('Network Requests', () => {
          var pass = Cypress.env('SE_CYPRESS_PASSWORD')
          var acaCookie = Cypress.env('SE_IMP_ACA_COOKIE')
          if (user !== 'Anubala'){
-             expect(true).to.be.eql(false)
+             expect(true).to.be.eql(false);
          }
         cy.log(recordkey)
         cy.log(user)
