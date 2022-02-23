@@ -10,7 +10,12 @@ context('Network Requests', () => {
   
     it('cy.request() - make an XHR request', () => {
         cy.log(' first it block')
-
+         var user = Cypress.env('SE_CYPRESS_LOGIN')
+         var pass = Cypress.env('SE_CYPRESS_PASSWORD')
+         var acaCookie = Cypress.env('SE_IMP_ACA_COOKIE')
+         if (user === 'Anubala'){
+             cy.log('This is my name');
+         }
     })
   
     
