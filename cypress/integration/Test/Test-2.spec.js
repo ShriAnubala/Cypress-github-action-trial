@@ -9,7 +9,7 @@ context('Network Requests', () => {
     // Manage HTTP requests in your app
   
     it('cy.request() - make an XHR request', () => {
-        cy,log(' first it block')
+        cy.log(' first it block')
 
     })
   
