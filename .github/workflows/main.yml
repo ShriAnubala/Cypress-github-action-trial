@@ -21,5 +21,6 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
-          # spec: cypress/integration/Test/*.js
-          command: cy:run:imp
+          config-file: cypress/config/cypress.imp.json
+          spec: cypress/integration/Test/*.js
+          # command: cy:run:imp
