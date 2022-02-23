@@ -10,10 +10,10 @@ context('Network Requests', () => {
   
     it('cy.request() - make an XHR request', () => {
         cy.log(' first it block')
-        var recordkey = Cypress.env.CYPRESS_RECORD_KEY
-         var user = Cypress.env('SE_CYPRESS_LOGIN')
-         var pass = Cypress.env('SE_CYPRESS_PASSWORD')
-         var acaCookie = Cypress.env('SE_IMP_ACA_COOKIE')
+        var recordkey = Cypress.env.RECORD_KEY
+        //  var user = Cypress.env('SE_CYPRESS_LOGIN')
+        //  var pass = Cypress.env('SE_CYPRESS_PASSWORD')
+        //  var acaCookie = Cypress.env('SE_IMP_ACA_COOKIE')
          expect(recordkey).to.be.have('AAA111')
         //  if ( recordkey !== 'AAA111'){
         //     expect(true).to.be.eql(false);
@@ -21,10 +21,10 @@ context('Network Requests', () => {
         //  if (user !== 'anubala'){
         //      expect(true).to.be.eql(false);
         //  }
-        cy.log(recordkey)
-        cy.log(user)
-        cy.log(pass)
-        cy.log( acaCookie)
+        // cy.log(recordkey)
+        // cy.log(user)
+        // cy.log(pass)
+        // cy.log( acaCookie)
     })
  
     
