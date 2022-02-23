@@ -24,9 +24,9 @@ jobs:
           config-file: cypress/config/cypress.imp.json
           spec: cypress/integration/Test/*.js
           # command: cy:run:imp
-          env: true
+          # env: true
         env:
           CYPRESS_RECORD_KEY: ${{secrets.CYPRESS_RECORD_KEY}}
-          CYPRESS_se_login: ${{secrets.CYPRESS_SE_LOGIN}
+          CYPRESS_se_login: ${{secrets.CYPRESS_SE_LOGIN}}
           CYPRESS_se_password: ${{secrets.CYPRESS_SE_PASSWORD}}
           CYPRESS_se_imp_aca_cookie: ${{secrets.CYPRESS_SE_IMP_ACA_COOKIE}}
