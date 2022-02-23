@@ -1,5 +1,5 @@
 {
-    "testFiles": "**/integration/Test/*.spec.js",
+    "testFiles": "**/Test/*.*",
     "baseUrl": "https://example.cypress.io/cypress-api",
     "env":{
         "performanceYear": 2021,

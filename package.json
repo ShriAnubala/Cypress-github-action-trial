@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:run": "npx run cy -- run --spec 'cypress/integration/examples/actions.spec.js'",
-    "cy:open" : "Cypress open --config-file=cypress/config/cypress.imp.json"
+    "cy:open" : "Cypress open --config-file=cypress/config/cypress.imp.json",
+    "cy:run:imp": "Cypress run --config-file=cypress/config/cypress.imp.json"
   },
   "author": "",
   "license": "ISC",
