@@ -24,3 +24,10 @@ jobs:
           config-file: cypress/config/cypress.imp.json
           spec: cypress/integration/Test/*.js
           # command: cy:run:imp
+          env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          SE_CYPRESS_LOGIN: ${{ secrets.SE_CYPRESS_LOGIN }}
+          SE_CYPRESS_PASSWORD: ${{ secrets.SE_CYPRESS_PASSWORD}}
+          SE_IMP_ACA_COOKIE: ${{ secrets.SE_IMP_ACA_COOKIE}}
+          SE_REGISTRY_JWT: ${{ secrets.SE_REGISTRY_JWT}}
+          SE_USER_JWT: ${{ secrets.SE_USER_JWT}}
