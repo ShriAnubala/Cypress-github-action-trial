@@ -1,0 +1,11 @@
+{
+    "testFiles": "**/integration/Test/*.spec.js",
+    "baseUrl": "https://example.cypress.io/cypress-api",
+    "env":{
+        "performanceYear": 2021,
+        "performanceStart": "2021-01-01",
+        "performanceEnd": "2021-12-12",
+        "environment": "imp",
+        "baseLoginUrl":"https://example.cypress.io/cypress-api"
+    }
+}
