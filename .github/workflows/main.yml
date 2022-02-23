@@ -26,9 +26,7 @@ jobs:
           # command: cy:run:imp
           env: true
         env:
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
-          CYPRESS_SE_LOGIN: ${{ secrets.SE_CYPRESS_LOGIN }}
-          CYPRESS_SE_PASSWORD: ${{ secrets.SE_CYPRESS_PASSWORD}}
-          CYPRESS_SE_IMP_ACA_COOKIE: ${{ secrets.SE_IMP_ACA_COOKIE}}
-          CYPRESS_SE_REGISTRY_JWT: ${{ secrets.SE_REGISTRY_JWT}}
-          CYPRESS_SE_USER_JWT: ${{ secrets.SE_USER_JWT}}
+          CYPRESS_RECORD_KEY: ${{secrets.CYPRESS_RECORD_KEY}}
+          CYPRESS_se_login: ${{secrets.CYPRESS_SE_LOGIN}
+          CYPRESS_se_password: ${{secrets.CYPRESS_SE_PASSWORD}}
+          CYPRESS_se_imp_aca_cookie: ${{secrets.CYPRESS_SE_IMP_ACA_COOKIE}}
