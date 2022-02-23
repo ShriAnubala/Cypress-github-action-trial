@@ -8,23 +8,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      # Install NPM dependencies, cache them correctly
-      # and run all Cypress tests
-      # - name: Configure Node Version
-      #   uses: actions/setup-node@v1
-      #   with:
-      #       node-version: 12
-
-      # - name: Update npm
-      #   run: npm install -g npm@7
 
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
           config-file: cypress/config/cypress.imp.json
           spec: cypress/integration/Test/*.js
-          # command: cy:run:imp
-          # env: true
+
         env:
           CYPRESS_RECORD_KEY: ${{secrets.CYPRESS_RECORD_KEY}}
           CYPRESS_se_login: ${{secrets.CYPRESS_SE_LOGIN}}
