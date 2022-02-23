@@ -14,7 +14,7 @@ context('Network Requests', () => {
         //  var user = Cypress.env('SE_CYPRESS_LOGIN')
         //  var pass = Cypress.env('SE_CYPRESS_PASSWORD')
         //  var acaCookie = Cypress.env('SE_IMP_ACA_COOKIE')
-         expect(recordkey).to.be.have('AAA111')
+         expect(recordkey).to.have.string('AAA')
         //  if ( recordkey !== 'AAA111'){
         //     expect(true).to.be.eql(false);
         //  }
