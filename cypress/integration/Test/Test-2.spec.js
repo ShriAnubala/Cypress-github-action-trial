@@ -13,11 +13,14 @@ context('Network Requests', () => {
          var user = Cypress.env('SE_CYPRESS_LOGIN')
          var pass = Cypress.env('SE_CYPRESS_PASSWORD')
          var acaCookie = Cypress.env('SE_IMP_ACA_COOKIE')
-         if (user === 'Anubala'){
-             cy.log('This is my name');
-         }
+        //  if (user !== 'Anubala'){
+        //      cy.log('This is my name');
+        //  }
+        cy.log(user)
+        cy.log(pass)
+        cy.log( acaCookie)
     })
-  
+ 
     
   })
   
